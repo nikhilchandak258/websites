@@ -1,0 +1,2 @@
+For the Soccermaniacs! It is a robot soccer event in which two robots play a classic football match head to head.
+The objective is to score an opponent’s goal. So get ready to encroach upon your opponent’s base while defending your own. Make your robot score as many goals as you can on the field!

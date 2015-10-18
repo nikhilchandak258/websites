@@ -1,0 +1,10 @@
+		<ul>
+	<li>	Participants are allowed to form a team of maximum 2 members.</li>
+<li>The problems will be of algorithmic nature and not programming language specific.</li>
+<li>The compiler for C, C++ and Java will be provided to you and in case you want to use any other language please inform prior to the event.</li>
+<li>As the programs will not be specific to any programming languages so participants can bring reference books if required. 
+No digital material will be allowed. Sharing of books among teams will be strictly prohibited.</li>
+<li>No participant is allowed to help other participants to solve the problems.</li>
+<li>The organizers have the right to disqualify participants found to be using unfair means in the competition.</li>
+<br/>
+		</ul>

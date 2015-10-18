@@ -1,0 +1,3 @@
+Cloud computing provides computation, software, data access and storage services that do not require end-user knowledge of the physical location and configuration of the system that delivers the services. 
+Cloud computing provides deliver applications via the internet, which are accessed from a web browser, while the business software and data are stored on servers at a remote location. 
+<br/><span style="float:right;text-align:right;">-By <i><b>Netgains Technologies</b></i></span>

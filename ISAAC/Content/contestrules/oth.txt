@@ -1,0 +1,10 @@
+		<ul>
+	<li>This will a free online contest and its registration will start a few days prior to ISAAC. The dates will be announced soon.</li>
+<li>You will have to solve a serious of puzzles or clues that will be given on the website to lead to the next destination.</li>
+<li>The participant who solves the clues and reaches to the final destination on the website first will be the winner.</li>
+<li>The event organizers reserve the right to take decisions on the 
+spot regarding to participant's obedience to the rules. Participants 
+may be disqualified if the event organizers feel they are using unfair means.</li>
+
+
+		</ul>

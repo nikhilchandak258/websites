@@ -1,0 +1,2 @@
+Python is a cross-platform dynamic programming language which is used in a wide spectrum of fields including but not limited to web development, embedded systems, GUI programming, scientific computing, image processing, artificial intelligence.
+Its being heavily used at organizations like Google, Yahoo, Dropbox, Walt Disney, NASA.

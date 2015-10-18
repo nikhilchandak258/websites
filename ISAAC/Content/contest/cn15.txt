@@ -1,0 +1,2 @@
+It is an autonomous robotics contest. The robot has to perform the task of a following a line track drawn on an environment, avoiding obstacles on the way.
+In this contest, participants must program autonomous robots to navigate a dangerous track in the shortest time possible.

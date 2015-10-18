@@ -1,0 +1,22 @@
+		<ul>
+		<li>A team may comprise a maximum of four participants.</li>
+<li>Any team that is not ready at the time specified will be disqualified from the competition automatically.</li>
+<li>Organizers decision shall be treated as final and binding on all.</li>
+<li>The dimensions of the machine should not exceed 16"X16"X16" (length x breadth x height) inches at any instant of the game.</li>
+<li>The weight of the robot should not exceed 10kg.</li>
+<li>Robots can have any kind of mechanical weapons like cutters, flippers, saws, lifting devices etc. as weapons.</li>
+<li>No team is supposed to harm the wire of the opponent's robot. Any team found doing so will be disqualified at that moment and will not be allowed to participate.</li>
+<li>The machine can be powered electrically only. Use of an IC engine in any form is not allowed.</li>
+<li>The following things are not allowed :</li>
+<li>Liquid projectiles, gas of any kind, any kind of flammable or inflammable liquid.</li>
+<li>Flame-based weapons, any kind of explosives, nets, tapes, glue, or any other entanglement device.</li>
+<li>Any high power magnets or electromagnets, tethered or un-tethered projectiles, radio jamming, tazers, tesla coils, or any other high-voltage device.</li>
+<li>All weapons must have a safety covers on any sharp edges.</li>
+<li>The machine will be scrutinized before the race and any machine found being made use of these parts will be disqualified & can not participate. The decision of the organizers will be final in this respect.</li>
+<li>DC power will be supplied, Maximum voltage of 24V will be allowed.</li>
+<li>Maximum current limit is 5A but only 2 A will be provided by us.</li>
+<li>Using the cord to pull the robot is not allowed, if this is observed the team will be disqualified and no protests will be entertained.</li>
+<li>No robot shall exceed the specified dimensions at any point during the race.</li>
+<li>Once the fight begins, the participants cannot touch their machines</li>
+
+		</ul>

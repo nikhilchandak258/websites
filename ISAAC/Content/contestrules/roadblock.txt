@@ -1,0 +1,17 @@
+	
+		<ul>
+	<li>The students must carry valid student ID cards of their college which they will be required to produce at the time of registration.</li>
+<li>A team may comprise a maximum of four participants. Students from different Institutions can form a Team.</li>
+<li>Any team that is not ready at the time specified will be disqualified from the competition automatically.</li>
+<li>Organizers decision shall be treated as final and binding on all.</li>
+<li>The dimensions of the machine should not exceed 10"X10"X10" (length x breadth x height) inches at any instant of the game.</li>
+<li>The weight of the robot should not exceed 3kg.</li>
+<li>The body of the machine should be original. Use of Lego,  Mechanix or any other Toy parts are not permitted.</li>
+<li>The machine will be scrutinized before the race and any machine found being made use of these parts will be disqualified and will not be given chance to participate. The decision of the organizers will final in all respect.</li>
+<li>The robot should not in any way damage or permanently affect the track.</li>
+<li>DC power will be supplied, maximum voltage of 24V allowed.</li>
+<li>Maximum current of 3 Amp is allowed but only 2 Amp will be provided by us.</li>
+<li>Using the cord to pull the robot is not allowed. If this is observed the team will be disqualified and no protests will be entertained</li>
+<li>Once the race starts, the participants are not allowed to touch their machines.</li>
+
+		</ul>

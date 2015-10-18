@@ -1,0 +1,2 @@
+Digital Forensics (sometimes known as Digital Forensic science) is a branch of forensic science encompassing the recovery and investigation of material found in digital devices, often in relation to computer crime. The term digital forensics was originally used as a synonym for computer forensics but has expanded to cover investigation of all devices capable of storing digital data.
+<br/><span style="float:right;text-align:right;">-By <i><b>White Hat School of Technologies Pvt. Ltd.</b></i></span>

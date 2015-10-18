@@ -1,0 +1,10 @@
+Acceleroarduino is a mixture of Arduino hardware and software with acceleration sensor.
+It is based on the implementation of acceleration sensor on robotics, graphics and embedded application development.
+This technology is now widely used in virtual reality, mobile phones, gaming solutions etc.
+In this workshop, the applications that will be taught to the participants are as mentioned below:-
+<br/>
+Accelerometer based Gesture controlled robot<br/>
+Accelerometer based PC-mouse<br/>
+Accelerometer based PC-game<br/>
+Graphics control on PC using Accelerometer<br/>
+<span style="float:right;text-align:right;">-By <i><b>Excelsior Embedded Solutions</b></i></span>

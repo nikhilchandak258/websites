@@ -1,0 +1,11 @@
+Robot controlled by android app. Student will learn basics of robotics.
+<br/>
+Basics of micro controller and Arduino programming<br/>
+Details of serial communication<br/>
+Interfacing of Bluetooth with micro controller<br/>
+Bluetooth communication<br/>
+Basics of robot and building a robot<br/>
+Basics of android app<br/>
+Understanding android app<br/>
+Controlling robot using various sensors of your android phone
+<br/><span style="float:right;text-align:right;">-By <i><b>Excelsior Embedded Solutions</b></i></span>

@@ -1,0 +1,11 @@
+﻿		<ul>
+<li>This will a free online contest and its registration will start a few days prior to ISAAC. The dates will be announced soon.</li>
+<li>Participants will be given some initial virtual money start trading on the Indian stock market.</li>
+<li>You will be given a week's time for this event.</li>
+<li>The participant who gets the maximum profit over the week will be the winner.</li>
+<li>The event organizers reserve the right to take decisions on the spot regarding to participant's obedience 
+to the rules. Participants may be disqualified if the event organizers 
+feel they are using unfair means.</li>
+
+
+		</ul>

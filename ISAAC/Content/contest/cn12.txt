@@ -1,0 +1,3 @@
+Make your robot clear all hurdles in the least amount of time.
+Watch for some fatal obstacles in this race which may consume precious seconds. So be decisive and navigate your robot well to reach the ultimate goal.
+This event really tests the true navigational skills of the participants.

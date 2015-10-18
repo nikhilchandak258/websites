@@ -1,0 +1,8 @@
+	<ul>
+	<li>Participants are allowed to form a team of maximum 2 members.</li>
+<li>The event will occur over a series of rounds over which the participants will have to understand the new programming language and solve the problem statement.</li>
+<li>No participant is allowed to help other participants to solve the problems.</li>
+<li>Organizers reserve the right to disqualify any team found to be flouting any rules.</li>
+<br/>
+
+		</ul>

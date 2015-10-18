@@ -1,0 +1,3 @@
+It is a blend of biology and IT and involves development and implementation of computational algorithms and software tools for improving and discovering new models of computation (e.g. DNA computing, neural computing, etc.) 
+JAVA, XML, Perl, C, C++, Python, R, SQL and MATLAB are the programming languages popularly used in this field. 
+Come to enhance your computational biology!!!

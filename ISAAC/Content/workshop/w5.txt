@@ -1,0 +1,6 @@
+Ethical hacking is a form of legal hacking that is done with the permission of an organization to help increase its security. 
+This session discusses many of the business aspects of penetration (pen) testing.
+This lesson starts with a discussion of confidentiality, integrity and availability. 
+Finally, the lesson finishes up with the history of hacking and a discussion of some of the pertinent laws. So get ready to hack!! 
+<!--br/><img style="width: 200px;height: 115px;float:right" src="images/workshop/company/pristine.PNG"/><br/-->
+<br/><span style="float:right;text-align:right;">-By <i><b>Pristine Info Solutions</b></i></span>

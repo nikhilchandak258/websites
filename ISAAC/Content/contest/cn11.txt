@@ -1,0 +1,2 @@
+This is a classic robot F1 race, which not only tests your speed, but also checks your skills at the bumps and curves.
+Contestants are required to race their robots around a race track designed to test their robot's speed and their maneuvering around tricky curves.

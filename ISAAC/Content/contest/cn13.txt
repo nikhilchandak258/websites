@@ -1,0 +1,2 @@
+A robot war which will question the strength of your robot and the technical genius in you.
+A point system is adopted and points are awarded accordingly, while each robot tries to block and knock the opponent robot out of the battlefield.

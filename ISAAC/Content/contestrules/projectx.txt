@@ -1,0 +1,15 @@
+		<ul>
+	<li>	Present a technical report and a working model of project in front of a panel of judges.</li>
+<li>There should be a maximum of 3 persons in a team.</li>
+<li>Implementation oriented research papers are preferred.</li>
+<li>An abstract of not more than 500 words is to be submitted.</li>
+<li>The paper must be submitted with a page stating the name, e-mail address,
+ college name and branch name of each of the participants.</li>
+<li>The abstract should be formatted in the standard IEEE Paper Format.</li>
+<li>All Abstracts must be submitted to projectx.contest@isaac2013.com by September 25, 2013. The subject of the e-mail should be the registration card number printed on the back of the back of the contest registration card. Abstracts received after the due date or without the registration codes will not be considered.</li>
+<li>Around 40 teams will be short-listed for the elimination round which will take place on October 6, 2013 in the TSEC campus. In this round, the judges will conduct a short interview of the participants based on their papers. No presentation will be required. The selected teams have to bring 2 hard copies of their paper.</li>
+<li>In the final round, teams must present their project in front of the panel of judges. The presentation must be given followed by a cross-questioning session.</li>
+<li>The infrastructure and spacing for the project must be informed to the authority by September 25, 2013.</li>
+
+
+		</ul>

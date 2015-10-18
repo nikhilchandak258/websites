@@ -1,0 +1,5 @@
+Windows Phone 8 is the second generation of the Windows Phone mobile operating system from Microsoft. 
+It was released on October 29, 2012, and like its predecessor, it features the interface known as Metro (or Modern UI). 
+Windows Phone 8 replaces its CE-based architecture used on Windows Phone 7 devices with the Windows NT kernel found on many Windows 8 components.
+<!--br/><img style="width: 215px;height: 90px;float:right" src="images/workshop/company/taiijas.PNG"/><br/-->
+<br/><span style="float:right;text-align:right;">-By <i><b>TaiijasInfotech Pvt. Ltd.</b></i></span>

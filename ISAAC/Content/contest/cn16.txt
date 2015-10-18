@@ -1,0 +1,2 @@
+The puzzling jigsaw is back to haunt young technical minds and tempt the inner child in you.
+A set of cubes in the shape of a jigsaw puzzle will be given to the contestants, whose robot has to rearrange the cubes to form the image given to them.

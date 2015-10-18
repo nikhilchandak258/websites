@@ -1,0 +1,9 @@
+		<ul>
+<li>Participants are allowed to form a team of maximum 2 members.</li>
+<li>Questions can be on any general category.</li>
+<li>Eliminations will consist of a written questionnaire.</li>
+<li>Qualifying teams will head for the final round.</li>
+<li>The team at the final round with the maximum score will be declared as the winner.</li>
+
+
+		</ul>

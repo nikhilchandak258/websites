@@ -1,0 +1,103 @@
+<div style="height:62%;overflow:scroll;overflow-x:hidden;" >
+			
+
+	<div id="table-container" class="scroll1">
+	<div id="table-container-inner">
+	<table id="sponsor"  style="margin: 0 auto;color: white;font-family: aldrich;">
+	<tr>
+	<td colspan="2"><center>Associate Sponsor
+	<br/><img src="images/sponser/sponsor2013/sathi.png"></td></center>
+		
+	</tr>
+	<br/>
+	<tr>
+    <td style="text-align:center">Radio Partner<br/>
+	<a href="http://www.big927fm.com/" target="_blank"><img src="images/sponser/sponsor2013/big.png"></a></td>
+	<td style="text-align:center">Prize Partner<br />
+	<a href="http://www.bombayhighfashions.com/home.php" target="_blank"><img src="images/sponser/sponsor2013/bombay.png"></a></td>
+	</tr>
+	
+	<tr>
+	<td colspan="2" style="text-align:center">Style Partner<br/>
+	<a href="http://www.wellnessforever.in/" target="_blank"><img src="images/sponser/sponsor2013/wellness.png"></a></td>
+
+	</tr>
+	<tr>
+	
+    <td colspan="2" style="text-align:center">Gaming Partner<br/>	<a href="http://smaaash.in/" target="_blank"><img src="images/sponser/sponsor2013/smash.png"></a></td>
+	</tr>
+
+	<tr>
+	<td colspan="2" style="text-align:center">Health Partner<br/>
+	<a href="http://www.wellnessforever.in/" target="_blank"><img 			src="images/sponser/sponsor2013/wellnesshealth.png"></a></td>
+	</tr>
+	
+	<tr>
+	<td colspan="2" style="text-align:center">Online Education Partner<br/>
+	<a href="http://www.educationtimes.com/" target="_blank"><img src="images/sponser/sponsor2013/edutime.jpg"></a></td>
+
+	</tr>
+	<tr>
+	<td colspan="2" style="text-align:center">Social Media Partner<br/>
+	<a href="https://www.facebook.com/dorfenterprises" target="_blank"><img src="images/sponser/sponsor2013/social.png"></a></td>
+
+	</tr>
+	
+	
+	
+	<tr>
+	<td style="text-align:center">Hosting Partner<br/>
+	<a href="https://www.facebook.com/dorfenterprises" target="_blank"><img src="images/sponser/sponsor2013/hosting.jpg"></a></td>
+     <td style="text-align:center">SMS Partner<br/>
+	<a href="https://www.facebook.com/dorfenterprises" target="_blank"><img src="images/sponser/sponsor2013/sms.png"></a></td>
+
+	</tr>
+	
+		<tr>
+	
+     <td style="text-align:center">Magazine Partner<br/>
+	<a href="" target="_blank"><img src="images/sponser/sponsor2013/jam.png"></a></td>
+    <td style="text-align:center">Fun Partner<br/>	<a href="http://www.esselworld.com/" target="_blank"><img src="images/sponser/sponsor2013/essel.jpg"></a></td>
+	</tr>
+	
+	
+		<tr>
+	<td colspan="2" style="text-align:center">Online Partners<br/>
+	<a href="http://www.markmyfest.com/" target="_blank"><img src="images/sponser/sponsor2013/mmf.png"></a>
+	<a href="http://www.knowafest.com/" target="_blank"><img src="images/sponser/sponsor2013/knowafest.png"></a>
+	</td>
+	</tr>
+	<tr>
+    <td colspan="2" style="text-align:center">
+	<a href="http://www.markmyfest.com/" target="_blank"><img src="images/sponser/sponsor2013/engpond.png"></a>
+	<a href="http://www.knowafest.com/" target="_blank"><img src="images/sponser/sponsor2013/indianclg.png"></a>
+	</td>
+	</tr>
+	
+	
+		<tr>
+	<td style="text-align:center">Salon Partner<br/>
+	<a href="http://freepressjournal.in/" target="_blank"><img src="images/sponser/sponsor2013/saloon.jpg"></a></td>
+     <td style="text-align:center">Discount Partner<br/>
+	<a href="http://lootlo.in/" target="_blank"><img src="images/sponser/sponsor2013/lootlo.png"></a></td>
+
+	</tr>
+		<tr>
+	<td style="text-align:center">Print Partner<br/>
+	<a href="http://freepressjournal.in/" target="_blank"><img src="images/sponser/sponsor2013/freepress.jpg"></a></td>
+     <td style="text-align:center">Youth Magazine Partner<br/>
+	<a href="http://www.youthincmag.com/" target="_blank"><img src="images/sponser/sponsor2013/youthmag.jpg"></a></td>
+
+	</tr>
+
+	</table>
+
+	</div>
+	</div>
+	
+	
+	
+			
+		
+		</div>
+	

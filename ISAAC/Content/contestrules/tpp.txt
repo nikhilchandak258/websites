@@ -1,0 +1,16 @@
+		<ul>
+	<li>Present a technical paper on any scientific paper in front of a panel of judges.</li>
+<li>There should be a maximum of 3 persons in a team.</li>
+<li>Implementation oriented research papers are preferred.</li>
+<li>The technical paper must have an abstract of not more than 500 words.</li>
+<li>The paper must be submitted with a page stating the name, e-mail address, college name and branch name of each of the participants.</li>
+<li>The entire paper must not be more than 20 pages long excluding the abstract.</li>
+<li>The paper should be formatted in the standard IEEE Paper Format.</li>
+<li>All Abstracts must be submitted to tpp.contest@isaac2013.com by September 25, 2013. The subject of the e-mail should be the registration card number printed on the back of the back of the contest registration card. Abstracts received after the due date or without the registration codes will not be considered.</li>
+<li>Around 40 teams will be short-listed for the elimination round which will take place on September 29, 2012 in the TSEC campus. In this round, the judges will conduct a short interview of the participants based on their papers. No presentation will be required. The selected teams have to bring 2 hard copies of their paper.</li>
+<li>After the elims, 10 teams will be selected for the final round which will be held on 2nd October, 2013; All 10 finalists will receive certificates.</li>
+<li>In the final round, teams must present their paper in front of the panel of judges. The presentation must be 20 minutes long which will be followed by a 10 minute long cross-questioning session. 
+A computer with Microsoft Powerpoint installed will be provided. If teams would like to use handmade slides instead, they should inform the event heads prior to the event</li>
+
+
+		</ul>

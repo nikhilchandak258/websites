@@ -1,0 +1,16 @@
+		<ul>
+	<li>	The students must carry valid student ID cards of their college which they will be required to produce at the time of registration.</li>
+<li>A team may comprise a maximum of four participants. Students from different Institutions can form a Team.</li>
+<li>Any team that is not ready at the time specified will be disqualified from the competition automatically.</li>
+<li>Organizers decision shall be treated as final and binding on all.</li>
+<li>The aim of the contest is to autonomously follow a line and the team with the best timing wins.</li>
+<li>The starting procedure of the robot should be simple and should not involve giving the machine any manual force or impulse in any direction.</li>
+<li>A team can take any desired shortcut, provided the robot does not deviate from a colored line.</li>
+<li>The width of the line will be 3cm. An error of 15 % in line width is possible on the track.</li>
+<li>Robot has to be Autonomous. Communication with the Robot during the event is forbidden. Any attempt to do so will lead to disqualification of the responsible team.</li>
+<li>A power supply of maximum 24V and 2A will be available.</li>
+<li>There will also be facility for a PC with serial port and USB slot for programming your bot. Although all other equipment, like programming boards, micro-controllers, etc. will have to be brought by the participants themselves and will not be provided.</li>
+<li>The decision of the event head and the authorities in-charge will be final in all regards.</li>
+
+
+		</ul>

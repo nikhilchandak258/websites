@@ -1,0 +1,13 @@
+       			<div class="md-modal md-effect-1" id="modal-c11">
+			<div class="md-content" style="height: 500px;">
+				<h3>RULES</h3>
+				<div>
+			<?php
+			 $contents = file_get_contents('Content/contestrules/torque.txt');
+             echo $contents;
+			
+			?>
+			<button class="md-close" style="  margin-top: 55px;box-shadow:0 0 5px 3px cyan;padding:0.3em" onClick="backgroundclear()">Close</button>
+				</div>
+			</div>
+		</div>

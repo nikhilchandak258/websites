@@ -1,0 +1,9 @@
+Exhibitions were held on all 3 days of ISAAC 2012. 
+Projects on display consisted of Intel Xolo Phone, 
+Autonomous line follower robot, Gesture controlled 
+robot, and Bluetooth controlled robot, 5 DOF (degree of freedom) 
+Robotic arm and many more. The projects made by the Conatus team 
+of our college were also present for all to see, namely, an 8x8x8 
+Led cube (It is an 8x8x8 cube made of 512 LEDs, and programmed on 
+the Arduino board), a dynamo charger, 
+a project showcasing hydroponics and a mouse controlled robotic arm.

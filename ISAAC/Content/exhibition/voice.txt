@@ -1,0 +1,2 @@
+This exhibit will feature a Variable Frequency AC Drive for 3 Phase AC Motor, an MP3 Voice Annunciator, 
+and a Voice Msg for Machine/Factory Annunciation.

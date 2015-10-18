@@ -1,0 +1,9 @@
+In this workshop, the participants will give the robot an eye and teach the robot to see the world like the way we human beings do, using a camera. For processing of the images, we use a tool called as MATLAB.
+The applications that will be taught to the participants are as mentioned below:-
+<br/>
+Color Recognition Application<br/>
+Ball following robot<br/>
+Gesture Controlled Robot<br/>
+Gesture controlled mouse pointer<br/>
+Gesture controlled Windows Media Player/VLC Media Player.(demo)<br/>
+<span style="float:right;text-align:right;">-By <i><b>Excelsior Embedded Solutions</b></i></span>

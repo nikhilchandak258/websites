@@ -1,0 +1,11 @@
+<ul>
+<li>Participants are required to bring their college ID cards which they will be required to produce at the time of registration.</li>
+<li>Bot should be level 1(wired)</li>
+<li>Voltage limit is 24V and Current limit 3A.</li>
+<li>A team may comprise of max 4 people.</li>
+<li>DC power supply will be provided with maximum 2A current availability from it.</li>
+<li>Any damage to the obstacles will incur a penalty/disqualification</li>
+<li>The decision of the organizer is final and binding.</li>
+<li>The participant is not allowed to touch the bot after the round begins.</li>
+<li>Maximum bot dimensions are 10"x10"x10".</li>
+</ul>

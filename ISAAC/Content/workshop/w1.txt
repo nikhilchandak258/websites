@@ -1,0 +1,6 @@
+
+Android is an operating system based on a modified version of Linux kernel. 
+The use of Android-based smart phones is booming, with more than 50,000 Android apps being already developed.
+So to compete in this fast growing industrial and technological world, come be a part of this workshop!!
+<!--br/><img style="width: 200px;height: 115px;float:right" src="images/workshop/company/taiijas.PNG"/><br/-->
+<br/><span style="float:right;text-align:right;">-By <i><b>TaiijasInfotech Pvt. Ltd.</b></i></span>
