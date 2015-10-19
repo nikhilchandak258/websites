@@ -1,0 +1,21 @@
+<b><u>PAYMENT METHODS:</u></b>
+<ul>
+<li>	Direct Bank deposits [Cash deposits/Cheque deposits].</li>
+<li>	NEFT/RTGS.</li>
+<li>	Cheques/Demand Drafts.</li>
+ </ul>
+ [Debit Card | Credit Card | Net-Banking] Coming soon ASAP..!!
+<br />
+ <br /><b><u>PAYMENT POLICIES:</u></b>
+<ul>
+<li>	All payments should be notified pre and post deposition.</li>
+<li>	Cheques/demand drafts must be received within 3 business days of the orders. </li>
+<li>	Cheques purchases will be shipped post cheques cleared.  </li>
+<li>	Only domestic transfers in bank accounts. No. foreign transfers will be accepted. </li>
+</ul>
+<b><u>ORDER POLICIES:</u></b>
+<ul>
+<li>	Minimum order should be entire set of Catalogue.</li>
+<li>	All orders will be processed & shipped, once payment is cleared.</li>
+<li>	Shipping charges to be borne by customer only.</li>
+</ul>

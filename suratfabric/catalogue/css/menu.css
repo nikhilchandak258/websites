@@ -1,0 +1,290 @@
+/* Iconfont made with icomoon.com */
+@font-face {
+	font-family: 'cbp-tmicons';
+	src:url('../fonts/tmicons/cbp-tmicons.eot');
+	src:url('../fonts/tmicons/cbp-tmicons.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/tmicons/cbp-tmicons.woff') format('woff'),
+		url('../fonts/tmicons/cbp-tmicons.ttf') format('truetype'),
+		url('../fonts/tmicons/cbp-tmicons.svg#cbp-tmicons') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+/*header*/
+#tagline{
+position: absolute;
+left: 206px;
+text-align: left;
+top: 61px;
+width: 18%;
+z-index: 1002;
+min-width:230px;
+}
+
+#tagline img{
+width:100%;
+}
+
+#lname{
+position: absolute;
+left: 108px;
+width: 20%;
+top: 7px;
+z-index: 1002;
+min-width:255px;
+}
+
+
+#lname img{
+width:100%;
+}
+
+/*serach*/
+.block{
+float: right;
+}
+
+#headertop{
+position: relative;
+width: 100%;
+z-index: 1000;
+top: 10px;
+right: 16px;
+height: 50px;
+}
+
+
+#current{
+color:rgba(7, 12, 15, 0.48);
+}
+
+/* reset  list style */
+.cbp-tm-menu,
+.cbp-tm-menu ul {
+	list-style: none;
+}
+
+/* set menu position; change here to set to relative or float, etc. */
+.cbp-tm-menu {
+	display: block;
+	position: relative;
+	z-index: 999;
+	width: 100%;
+	background-color: rgba(0, 0, 0, 1);
+	text-align: right;
+	padding: 0 2em;
+	margin: 0;
+	text-transform: capitalize;
+	height: 42px;
+	box-shadow: 0 0 8px 4px black;
+}
+
+/* first level menu items */
+.cbp-tm-menu > li {
+	display: inline-block;
+	margin: 0 1.6em;
+	position: relative;
+}
+
+.cbp-tm-menu > li > a {
+	line-height: 2.1em;
+	padding: 0 0.3em;
+	font-size: 1.2em;
+	display: block;
+	color: #fff;
+}
+
+.no-touch .cbp-tm-menu > li > a:hover,
+.no-touch .cbp-tm-menu > li > a:active {
+	color: #8F8F8F;
+}
+
+/* sumbenu with transitions */
+.cbp-tm-submenu {
+	position: absolute;
+	display: block;
+	visibility: hidden;
+	opacity: 0;
+	padding: 0;
+	text-align: left;
+	pointer-events: none;
+	-webkit-transition: visibility 0s, opacity 0s;
+	-moz-transition: visibility 0s, opacity 0s;
+	transition: visibility 0s, opacity 0s;
+}
+
+.cbp-tm-show .cbp-tm-submenu {
+	width: 12em;
+left: 80%;
+	margin: 0 0 0 -8em;
+	opacity: 1;
+	visibility: visible;
+	pointer-events: auto;
+	-webkit-transition: visibility 0s, opacity 0.3s;
+	-moz-transition: visibility 0s, opacity 0.3s;
+	transition: visibility 0s, opacity 0.3s;
+	text-align: center;
+}
+
+.cbp-tm-show-above .cbp-tm-submenu {
+	bottom: 100%;
+	padding-bottom: 10px;
+}
+
+.cbp-tm-show-below .cbp-tm-submenu {
+	top: 100%;
+	padding-top: 10px;
+}
+
+/* extreme cases: not enough space on the sides */
+.cbp-tm-nospace-right .cbp-tm-submenu {
+	right: 0;
+	left: auto;
+}
+
+.cbp-tm-nospace-left .cbp-tm-submenu {
+	left: 0;
+}
+
+/* last menu item has to fit on the screen */
+.cbp-tm-menu > li:last-child .cbp-tm-submenu {
+	right: 0;
+}
+
+/* 	
+arrow: depending on where the menu will be shown, we set 
+the right position for the arrow
+*/
+
+.cbp-tm-submenu:after {
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+}
+
+.cbp-tm-show-above .cbp-tm-submenu:after {
+	top: 100%;
+	margin-top: -10px;
+}
+
+.cbp-tm-show-below .cbp-tm-submenu:after {
+	bottom: 100%;
+	margin-bottom: -10px;
+}
+
+.cbp-tm-submenu:after {
+	border-color: transparent;
+	border-width: 16px;
+	margin-left: -16px;
+	left: 50%;
+}
+
+.cbp-tm-show-above .cbp-tm-submenu:after {
+	border-top-color: #fff;
+}
+
+.cbp-tm-show-below .cbp-tm-submenu:after {
+	border-bottom-color: #000;
+}
+
+.cbp-tm-submenu > li {
+	display: block;
+	background: black;
+	height: 30px;
+}
+
+.cbp-tm-submenu > li > a {
+	padding: 0.5em;/* top/bottom paddings in 'em' cause a tiny "jump" in Chrome on Win */
+	display: block;
+	/*font-size: 1.2em;*/
+	position: relative;
+	color: white;
+	/* border: 4px solid #050000; */
+	-webkit-transition: all 0.2s;
+	-moz-transition: all 0.2s;
+	transition: all 0.2s;
+}
+.cbp-tm-submenu > li > a:hover{
+	color: black;
+	background: white;
+}
+.no-touch .cbp-tm-submenu > li > a:hover,
+.no-touch .cbp-tm-submenu > li > a:active {
+	color: #fff;
+	background: #47a3da;
+}
+
+/* the icons (main level menu icon and sublevel icons) */
+.cbp-tm-submenu li a:before,
+.cbp-tm-menu > li > a:before {
+	font-family: 'cbp-tmicons';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	vertical-align: middle;
+	margin-right: 0.6em;
+	-webkit-font-smoothing: antialiased;
+}
+
+.cbp-tm-submenu li a:before {
+	position: absolute;
+	top: 50%;
+	margin-top: -0.5em;
+	right: 0.5em;
+}
+
+.cbp-tm-menu > li > a:not(:only-child):before {
+	content: "\f0c9";
+	font-size: 60%;
+	opacity: 0.3;
+}
+/* Media Queries */
+@media screen and (max-width: 55.6875em) {
+	.cbp-tm-menu {
+		font-size: 100%;
+	}
+}
+
+
+/*LINKS*/
+#mixtable td{
+padding: 0 10em 1em;
+border-right: 1px solid;
+font-size: 18px;
+border-left: 1px solid;
+
+}
+
+#mixtable th{
+font-size: 25px;
+padding-bottom: 1em;
+font-weight: normal;
+}
+
+#mixtable td li a{
+text-decoration:none;
+color:#02639d;
+
+}
+
+#logo{
+width: 8%;
+position: absolute;
+box-shadow: 0 0 9px 5px black;
+background-color: rgba(0, 0, 0, 0.88);
+left: 0px;
+top: -38px;
+min-width:95px;
+}
+
+#logo img{
+width: 100%
+}
+

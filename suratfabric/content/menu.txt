@@ -1,0 +1,33 @@
+				<div id="tagline"><img src="images/tagline.png" alt="SuratFabriclogo" /></div>
+				<div id="lname"><img src="images/lname.png" alt="SuratFabriclogo" /></div>				
+				<ul id="cbp-tm-menu" class="cbp-tm-menu">
+				<div id="logo"><img src="images/logo.png" alt="SuratFabriclogo" /></div>
+
+				
+				<li>
+					<a href="http://www.suratfabric.com/"  id="home">Home</a>
+				</li>
+
+			
+				<li>
+					<a href="http://www.suratfabric.com/suits" id="suits">Suits</a>
+				</li>
+						
+				<li onclick="alert('Coming Soon.');">
+				    <a href="#" class="">Sarees</a>
+				</li>
+				
+				<li onclick="alert('Coming Soon.');">
+				    <a href="#" class="">Kurtis</a>
+				</li>
+			
+				<li>
+					<a href="http://www.suratfabric.com/payment-polices" id="pay">Payments</a>
+				</li>
+
+
+				
+				<li>
+					<a href="http://www.suratfabric.com/contact-us" id="cnt">Contact Us</a>
+									</li>
+			</ul>

@@ -1,0 +1,11 @@
+﻿<div class="custom" style="min-width:1024px;position: relative;float: left;width: 100%;background-color: rgba(68, 68, 68, 0.62);color: whitesmoke;bottom:0px" >
+	<style>
+  .site_develop{
+  font-family: 'Noto Serif', sans-serif;
+  }
+</style>
+  
+
+<p class="site_develop" style="text-align:center;margin:0;padding:0px"> Copyright © 2014 Surat fabrics. All rights reserved. </p>
+ <center><p class="site_develop" style="margin:0;padding:0px">Email: enquiry@suratfabric.com</p>
+		</div>

@@ -1,0 +1,74 @@
+
+<div id="quicklink" style="margin-top: 50px;">
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+<div id="social">
+<b>Follow US:</b>
+<br />
+<div>
+<div class="fb-like" data-href="https://www.facebook.com/suratfabric" data-width="200px" data-layout="button_count" data-action="like" data-show-faces="false" data-share="true"></div>
+<!-- Place this tag where you want the +1 button to render. -->
+</div>
+<div style="margin-top: 7px;">
+<div class="g-plusone"></div>
+</div>
+
+<script type="text/javascript">
+  (function() {
+    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+    po.src = 'https://apis.google.com/js/platform.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+  })();
+</script>
+
+<div>
+<a href="https://twitter.com/twitterapi" class="twitter-follow-button" data-show-count="true" data-lang="en">Follow @twitterapi</a>
+</div>
+
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+
+</div>
+<table>
+
+<tr>
+<th>Information</th>
+<th>Customer Service </th>
+<th>Catalogues</th>
+</tr>
+<ul>
+
+<tr>
+<td><li><a href="http://www.suratfabric.com/">Home</a></li></td>
+<td><li><a href="http://www.suratfabric.com/contact-us">Contact Us</a></li></td>
+<td><li><a href="http://www.suratfabric.com/suits">Suits</a></li></td>
+</tr>
+
+<tr>
+<td><li><a href="http://www.suratfabric.com/about-us">About Us</a></li></td>
+<td><li><a href="http://www.suratfabric.com/sitemap.xml">Site Map</a></li></td>
+<td><li>Saree <small>(Comming Soon)</small></li></td>
+</tr>
+
+<tr>
+<td><li><a href="http://www.suratfabric.com/terms-conditions">T & C</a></li></td>
+<td></td>
+<td><li>Kurtis <small>(Comming Soon)</small></li></td>
+</tr>
+
+<tr>
+<td><li><a href="http://www.suratfabric.com/payment-polices">Payment Polices</a></li></td>
+<td></td>
+<td></td>
+</tr>
+</ul>
+
+</table>
+
+
+</div>

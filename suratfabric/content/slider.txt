@@ -1,0 +1,50 @@
+
+<div id="qsaree">
+<div class="title"><b>Suit Catalogues</b><span class="viewbutton"><a href="suits">View More</a></span> </div>
+<div class="slider">
+ <div class="simple-cycle simple-cycle-2">
+        <div class="arrow arrow-left"></div>
+        <div class="flow-slider">
+		  <a href="catalogue/kumud.php" ><div class="item">
+                <img src="images/slider/sf5.jpg" />
+                <div class="subtext">Kumud</div>
+            </div></a>
+            
+			<a href="#" ><div class="item">
+                <img src="images/slider/sf6.jpg" />
+                <div class="subtext">Bazaar</div> 
+			</div></a>
+            
+			<a href="#" ><div class="item">
+                <img src="images/slider/sf7.jpg" />
+                <div class="subtext">Akshara</div> 
+			</div></a>
+            
+			<a href="#" ><div class="item">
+                <img src="images/slider/sf1.jpg" />
+                <div class="subtext">Time</div>
+			</div></a>
+            
+			<a href="#" ><div class="item">
+                <img src="images/slider/sf2.jpg" />
+                <div class="subtext">Popular Science</div>
+			</div></a>
+            
+			<a href="#" ><div class="item">
+                <img src="images/slider/sf3.jpg" />
+                <div class="subtext">Smart Money</div>
+			</div></a>
+            
+			<a href="#" ><div class="item">
+                <img src="images/slider/sf4.jpg" />
+                <div class="subtext">Forbes</div>
+			</div></a>
+          
+        </div>
+        <div class="arrow arrow-right"></div>
+
+</div>
+
+
+</div>
+</div>

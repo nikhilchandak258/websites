@@ -1,0 +1,65 @@
+<div id="sidebar" >
+<div class="heading">Categories</div>
+<ul id="mainside">
+<!--li class="sidel1"><a href="#">Saree</a></li>
+<ul id="Child Side">
+<li class="sidel2"><a href="#">Cat1</a></li>
+<li class="sidel2"><a href="#">Cat2</a></li>
+<li class="sidel2"><a href="#">Cat3</a></li>
+</ul-->
+
+<li class="sidel1"><a href="#">Suit</a></li>
+	<ul class="range">
+	<!--------------------------------BELOW 500------------------------------------->
+	<li><a class="range_a" href="#">Below <span class="WebRupee">Rs.</span>500</a></li>
+	
+			<ul class="childside">
+			<li class="sidel2"><a href="blackcurrent-catalog-24-pcs">Black Current</a></li>
+			<li class="sidel2"><a href="chanchalpari-catalog-16-pcs">Chanchal Pari</a></li>
+			<li class="sidel2"><a href="ganesha-catalog-24-pcs">Ganesha</a></li>
+			<li class="sidel2"><a href="kanganvol1-catalog-20-pcs">Kangan-Vol-1</a></li>
+			<li class="sidel2"><a href="kathavol11-catalog-12-pcs">Katha</a></li>
+			<li class="sidel2"><a href="kiran-catalog-20-pcs">Kiran</a></li>
+			<li class="sidel2"><a href="kumkumvol3-catalog-20-pcs">Kumkum-Vol-3</a></li>
+			<li class="sidel2"><a href="rasna-catalog-32-pcs">Rasna</a></li>
+			<li class="sidel2"><a href="sonia-catalog-24-pcs">Sonia</a></li>
+			</ul>
+			
+	<!--------------------------------500-1000------------------------------------->
+	<li style="margin-top: 5px;"><a class="range_a" href="#"><span class="WebRupee">Rs.</span>500-<span class="WebRupee">Rs.</span>1000</a></li>
+	
+			<ul class="childside">
+			<li class="sidel2"><a href="browani-catalog-12-pcs">Browani</a></li>
+			<li class="sidel2"><a href="hollywoodanarkali-catalog-9-pcs">Hollywood</a></li>
+			<li class="sidel2"><a href="boutiqe-catalog-13-pcs">Boutiqe</a></li>
+			<li class="sidel2"><a href="maxico-catalog-8-pcs">Maxico</a></li>
+			</ul>
+			
+	<!---------------------------------1000-1500------------------------------------>
+			
+	<li style="margin-top: 5px;"><a class="range_a" href="#"><span class="WebRupee">Rs.</span>1000-<span class="WebRupee">Rs.</span>1500</a></li>
+	
+			<ul class="childside">
+			<li class="sidel2"><a href="sushmita-catalog-12-pcs">Sushmita</a></li>
+			<li class="sidel2"><a href="kalyanam-catalog-12-pcs">Kalyanam</a></li>
+			<li class="sidel2"><a href="raaga-catalog-10-pcs">Raaga</a></li>
+			<li class="sidel2"><a href="jasmine-catalog-9-pcs">Jasmine</a></li>
+			<li class="sidel2"><a href="savera-catalog-10-pcs">Savera</a></li>
+			</ul>		
+			
+			
+	<!---------------------------------ABOVE 1500------------------------------------>	
+	<li style="margin-top: 5px;"><a class="range_a" href="#">Above <span class="WebRupee">Rs.</span>1500</a></li>
+	
+			<ul class="childside">
+			<li class="sidel2"><a href="bipasha-catalog-9-pcs">Bipasha</a></li>
+			<li class="sidel2"><a href="kumudvol1-catalog-12-pcs">Kumud-vol-1</a></li>
+			<li class="sidel2"><a href="vidhivol5-catalog-9-pcs">Vidhi-Vol-5</a></li>
+			<li class="sidel2"><a href="zubedavol10-catalog-11-pcs">Zubeda-Vol-10</a></li>
+			</ul>
+	
+	</ul>	
+
+</ul>
+
+</div>

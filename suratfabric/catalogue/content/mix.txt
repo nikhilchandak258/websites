@@ -1,0 +1,26 @@
+<table id="mixtable">
+<tr>
+<th>SAREES</th>
+<th>SUITS</th>
+</tr>
+<ul>
+<tr>
+<td><li><a href="">SCatalogue1</a></li></td>
+<td><li><a href="">SuCatalogue1</a></li></td>
+</tr>
+
+<tr>
+<td><li><a href="">SCatalogue2</a></li></td>
+<td><li><a href="">SuCatalogue2</a></li></td>
+</tr>
+
+<tr>
+<td><li><a href="">SCatalogue3</a></li></td>
+<td><li><a href="">SuCatalogue3</a></li></td>
+</tr>
+
+
+
+
+</ul>
+</table>

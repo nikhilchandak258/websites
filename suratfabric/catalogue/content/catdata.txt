@@ -1,0 +1,11 @@
+<div id="catdata">
+
+<p>Description:</p>
+<ul>
+<li>Top : <?php echo "$top"; ?></li>
+<li>Dupatta : Chifon</li>
+<li>Bottom : Santton</li>
+<li>Inner : Santoon</li>
+<li>Pieces : 12</li>
+</ul>
+</div>

@@ -1,0 +1,39 @@
+				<div id="three-columns" class="grid-container">
+				<h1>Suit Catalogues</h1>
+			<ul class="rig columns-3">
+				<a href=""><li>
+					<img src="images/slider/sf1.jpg" />
+					<h3>Image Title</h3>
+									</li></a>
+				<a href=""><li>
+					<img src="images/slider/sf2.jpg" />
+					<h3>Image Title</h3>
+									</li></a>
+				<a href=""><li>
+					<img src="images/slider/sf3.jpg" />
+					<h3>Image Title</h3>
+									</li></a>
+				<a href=""><li>
+					<img src="images/slider/sf4.jpg" />
+					<h3>Image Title</h3>
+									</li></a>
+				
+				<a href=""><li>
+					<img src="images/slider/sf5.jpg" />
+					<h3>Image Title</h3>
+									</li></a>
+									
+				<a href=""><li>
+					<img src="images/slider/sf6.jpg" />
+					<h3>Image Title</h3>
+									</li></a>
+									
+				<a href=""><li>
+					<img src="images/slider/sf7.jpg" />
+					<h3>Image Title</h3>
+									</li></a>
+									
+									
+									</ul>
+									</div>
+									
