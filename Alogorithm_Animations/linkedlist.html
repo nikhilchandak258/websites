@@ -1,0 +1,213 @@
+<html>
+<head><title>Digital Content Development For Teaching DSA - Linked List </title>
+<link rel="stylesheet" type="text/css" href="css/content.css" />
+</head>
+<body>
+<h3 style="text-align:center;padding: 10px;color:white;background:black;">
+	<br />
+	<span style="font-size:30px">Digital Content Development for Data Structure and Algorithm</span>
+<br />	
+      Guide : Dr. G. T. Thampi
+	  <br />
+	  </h3>
+	<div style="  width: 1024px;
+  margin: 0 auto;
+  background: rgba(0, 0, 0, 0.55);
+  padding: 1em;
+  margin-top: 11px;">
+	
+               
+            <div class="main">
+
+
+<center><h1>Linked List</h1></center><br>
+<hr><br>
+<h2> Introduction</h2><br>
+<p>One disadvantage of using arrays to store data is that arrays are static structures and therefore cannot be easily extended or reduced to fit the data set. Arrays are also expensive to maintain new insertions and deletions. In this chapter we consider another data structure called Linked Lists that addresses some of the limitations of arrays.
+A linked list is a linear data structure where each element is a separate object.
+<p>Each element (we will call it a node) of a list is comprising of two items - the data and a reference to the next node. The last node has a reference to null. The entry point into a linked list is called the head of the list. It should be noted that head is not a separate node, but the reference to the first node. If the list is empty then the head is a null reference.
+A linked list is a dynamic data structure. The number of nodes in a list is not fixed and can grow and shrink on demand. Any application which has to deal with an unknown number of objects will need to use a linked list.
+One disadvantage of a linked list against an array is that it does not allow direct access to the individual elements. If you want to access a particular item then you have to start at the head and follow the references until you get to that item.
+Another disadvantage is that a linked list uses more memory compare with an array - we extra 4 bytes (on 32-bit CPU) to store a reference to the next node.
+<br>
+<br><br>
+Singly Linked List
+<br>
+<img style="float:center" src="images/linkedlist.bmp">
+<br>
+<br>
+Doubly Linked List
+<br>
+<img style="float:center" src="images/doubly.bmp">
+<br>
+<br>
+<h4>addFirst - The method creates a node and prepends it at the beginning of the list. </h4>
+public void addFirst(AnyType item)
+{<br>
+   head = new Node<AnyType>(item, head);<br>
+}<br>
+<img style="float:center" src="images/prepend.bmp">
+<br>
+<h4>Traversing - Start with the head and access each node until you reach null. Do not change the head reference.</h4><br>
+<br>
+Node tmp = head;<br>
+while(tmp != null) tmp = tmp.next;<br>
+<img style="float:center" src="images/traverse.bmp">
+<br>
+<h4>addLast -The method appends the node to the end of the list. This requires traversing, but make sure you stop at the last node</h4><br>
+public void addLast(AnyType item)<br>
+{<br>
+   if(head == null) addFirst(item);<br>
+   else<br>
+   {<br>
+      Node<AnyType> tmp = head;<br>
+      while(tmp.next != null) tmp = tmp.next;<br>
+<br>
+      tmp.next = new Node<AnyType>(item, null);<br>
+   }<br>
+}<br>
+<img style="float:center" src="images/append.bmp">
+<br>
+
+<h4>Inserting "after" - Find a node containing "key" and insert a new node after it. In the picture below, we insert a new node after "e":</h4><br>
+
+public void insertAfter(AnyType key, AnyType toInsert)<br>
+{<br>
+   Node<AnyType> tmp = head;<br>
+   while(tmp != null && !tmp.data.equals(key)) tmp = tmp.next;<br>
+
+   if(tmp != null)<br>
+      tmp.next = new Node<AnyType>(toInsert, tmp.next);<br>
+}<br>
+<img style="float:center" src="images/after.bmp">
+<br>
+<h4>Inserting "before" Find a node containing "key" and insert a new node before that node. In the picture below, we insert a new node before "a":</h4><br>
+
+public void insertBefore(AnyType key, AnyType toInsert)<br>
+{<br>
+   if(head == null) return null;<br>
+   if(head.data.equals(key))<br>
+   {<br>
+      addFirst(toInsert);<br>
+      return;<br>
+   }<br>
+
+   Node<AnyType> prev = null;<br>
+   Node<AnyType> cur = head;<br>
+
+   while(cur != null && !cur.data.equals(key))<br>
+   {<br>
+      prev = cur;<br>
+      cur = cur.next;<br>
+   }<br>
+   //insert between cur and prev<br>
+   if(cur != null) prev.next = new Node<AnyType>(toInsert, cur);<br>
+}<br>
+}<br>
+<img style="float:center" src="images/before.bmp">
+<br>
+
+<h4>Deletion - Find a node containing "key" and delete it. In the picture below we delete a node containing "A"</h4><br>
+
+The algorithm is similar to insert "before" algorithm. It is convinient to use two references prev and cur. When we move along the list we shift these two references, keeping prev one step before cur. We continue until cur reaches the node which we need to delete. There are three exceptional cases, we need to take care of:
+list is empty<br>
+delete the head node<br>
+node is not in the list<br><br>
+public void remove(AnyType key)<br>
+{<br>
+   if(head == null) throw new RuntimeException("cannot delete");<br>
+   if( head.data.equals(key) )<br>
+   {<br>
+      head = head.next;<br>
+      return;<br>
+   }<br>
+
+   Node<AnyType> cur  = head;<br>
+   Node<AnyType> prev = null;<br>
+
+   while(cur != null && !cur.data.equals(key) )<br>
+   {<br>
+      prev = cur;<br>
+      cur = cur.next;<br>
+   }<br>
+
+   if(cur == null) throw new RuntimeException("cannot delete");<br>
+
+   //delete cur node<br>
+   prev.next = cur.next;<br>
+}<br>
+
+<img style="float:center" src="images/delete.bmp">
+<br>
+
+
+
+
+
+
+<h2>Applications</h2>
+
+The main Applications of Linked Lists are<br> 
+<ul>
+<li>For representing Polynomials </li>
+<li> In Dynamic Memory Management </li>
+<li>In Symbol Tables </li>
+<li> Representing Sparse Matrix</li>  
+<li> For representing polynomials </li>
+It means in addition/subtraction /multiplication.. of two polynomials.</li> 
+Eg:p1=2x^2+3x+7 and p2=3x^3+5x+2 </li>
+p1+p2=3x^3+2x^2+8x+9 </li>
+<li> In Dynamic Memory Management </li> 
+In allocation and releasing memory at runtime. </li>
+<li>In Symbol Tables </li>
+in Balancing parentheses  </li>
+<li> Representing Sparse Matrix </li>
+</ul>
+
+<br />
+<a href="java/LinkedList.html" class="info">Run Code</a>
+</div>
+</div>
+		<div id="quicklink" style="margin-top: 50px;">
+<table>
+
+<tr>
+<th>Data Structures(Basic)</th>
+<th>Data Structures(Tree)</th>
+<th>Algorithms</th>
+<th>Information</th>
+</tr>
+
+<tr>
+<td><li><a href="stack.html">Stack</a></li></td>
+<td><li><a href="heap.html">Heap</a></li></td>
+<td><li><a href="hanoi.html">Tower of Hanoi</a></li></td>
+<td><li><a href="index.html">Home</a></li></td>
+</tr>
+
+<tr>
+<td><li><a href="queue.html">Queue</a></li></td>
+<td><li><a href="bst.html">Binary Search Tree</a></li></td>
+<td><li><a href="radix.html">Radix Sort</a></li></td>
+<td><li><a href="about.html">About Project</a></li></td>
+</tr>
+
+<tr>
+<td><li><a href="linkedlist.html">Linked List</a></li></td>
+<td><li><a href="rbt.html">Red Black Tree</li></td>
+<td></td>
+<td><li><a href="contact.html">Contact US</a></li></td>
+</tr>
+
+<tr>
+<td><li><a href="array.html">Array</a></li></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+
+
+</table>
+</div>
+</body>
+</html>

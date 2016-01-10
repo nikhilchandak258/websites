@@ -1,0 +1,130 @@
+<html>
+<head><title>Digital Content Development For Teaching DSA - Queue </title>
+ <link rel="stylesheet" type="text/css" href="css/content.css" />
+</head>
+<body>
+<h3 style="text-align:center;padding: 10px;color:white;background:black;">
+	<br />
+	<span style="font-size:30px">Digital Content Development for Data Structure and Algorithm</span>
+<br />	
+      Guide : Dr. G. T. Thampi
+	  <br />
+	  </h3>
+	<div style="  width: 1024px;
+  margin: 0 auto;
+  background: rgba(0, 0, 0, 0.55);
+  padding: 1em;
+  margin-top: 11px;">
+	
+               
+            <div class="main">
+<center><h1>Queue</h1></center><br>
+<hr><br>
+<h2> Introduction</h2><br>
+<p>A queue is a container of objects (a linear collection) that are inserted and removed according to the first-in first-out (FIFO) principle. 
+An excellent example of a queue is a line of students in the food court of the UC. 
+New additions to a line made to the back of the queue, while removal (or serving) happens in the front. 
+In the queue only two operations are allowed enqueue and dequeue. Enqueue means to insert an item into the back of the queue, dequeue means removing the front item. 
+The picture demonstrates the FIFO access.
+<img style="float:right" src="images/queue.bmp">
+<br>
+<br>The difference between stacks and queues is in removing. In a stack we remove the item the most recently added; in a queue, we remove the item the least recently added.
+<br>There are two pointers front and back
+
+<h2>Functions</h2>
+<ul><li>Enqueue - It pushes element on back of queue.It means adding element to Queue<br></li>
+<li>Dequeue - It removes the front most element of queue.It means removing element from Queue<br></li>
+</ul>
+<br>
+<h2>Algorithm</h2>
+
+<h3>Addition into a queue</h3><br>
+<br>
+procedure addq (item : items); <br>
+{add item to the queue q} <br>
+begin <br>
+    if rear=n then queuefull <br>
+    else begin <br>
+         rear :=rear+1;<br> 
+         q[rear]:=item; <br>
+    end; <br>
+end;{of addq}<br>
+
+<h3>Deletion in a queue</h3>
+<br>
+procedure deleteq (var item : items); <br>
+{delete from the front of q and put into item} <br>
+begin <br>
+    if front = rear then queueempty <br>
+    else begin <br>
+         front := front+1 <br>
+         item := q[front]; <br>
+    end; <br>
+end; {of deleteq} <br>
+
+<h2>Applications</h2>
+
+<ul>
+<li>Operating systems often maintain a queue of processes that are ready to execute or that are waiting for a particular event to occur.
+<br></li><li>Computer systems must often provide a “holding area” for messages between two processes, two programs, or even two systems. 
+This holding area is usually called a “buffer” and is often implemented as a queue.<br></li>
+<li>Breadth-First Search with a Queue
+<br>
+In breadth-first search we explore all the nearest possibilities by finding all possible successors and enqueue them to a queue.<br>
+<h3>Algorithm:</h3>
+Create a queue<br>
+Create a new choice point<br>
+Enqueue the choice point onto the queue<br>
+while (not found and queue is not empty)<br>
+Dequeue the queue<br>
+Find all possible choices after the last one tried<br>
+Enqueue these choices onto the queue<br>
+Return<br></li></ul>
+
+<br />
+<a href="java/Queue.html" class="info">Run Code</a>
+</div>
+</div>
+		<div id="quicklink" style="margin-top: 50px;">
+<table>
+
+<tr>
+<th>Data Structures(Basic)</th>
+<th>Data Structures(Tree)</th>
+<th>Algorithms</th>
+<th>Information</th>
+</tr>
+
+<tr>
+<td><li><a href="stack.html">Stack</a></li></td>
+<td><li><a href="heap.html">Heap</a></li></td>
+<td><li><a href="hanoi.html">Tower of Hanoi</a></li></td>
+<td><li><a href="index.html">Home</a></li></td>
+</tr>
+
+<tr>
+<td><li><a href="queue.html">Queue</a></li></td>
+<td><li><a href="bst.html">Binary Search Tree</a></li></td>
+<td><li><a href="radix.html">Radix Sort</a></li></td>
+<td><li><a href="about.html">About Project</a></li></td>
+</tr>
+
+<tr>
+<td><li><a href="linkedlist.html">Linked List</a></li></td>
+<td><li><a href="rbt.html">Red Black Tree</li></td>
+<td></td>
+<td><li><a href="contact.html">Contact US</a></li></td>
+</tr>
+
+<tr>
+<td><li><a href="array.html">Array</a></li></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+
+
+</table>
+</div>
+</body>
+</html>

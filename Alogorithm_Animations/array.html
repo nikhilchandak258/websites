@@ -1,0 +1,120 @@
+<html>
+<head><title>Digital Content Development For Teaching DSA - Array </title>
+<link rel="stylesheet" type="text/css" href="css/content.css" />
+</head>
+<body>
+<h3 style="text-align:center;padding: 10px;color:white;background:black;">
+	<br />
+	<span style="font-size:30px">Digital Content Development for Data Structure and Algorithm</span>
+<br />	
+      Guide : Dr. G. T. Thampi
+	  <br />
+	  </h3>
+	<div style="  width: 1024px;
+  margin: 0 auto;
+  background: rgba(0, 0, 0, 0.55);
+  padding: 1em;
+  margin-top: 11px;">
+	
+               
+            <div class="main">
+
+<center><h1>Array</h1></center><br>
+<hr><br>
+<h2> Introduction</h2><br>
+<p>Array is a data structure which stores a fixed-size sequential collection of elements of the same type. An array is used to store a collection of data, but it is often more useful to think of an array as a collection of variables of the same type.
+Instead of declaring individual variables, such as number0, number1, ..., and number99, you declare one array variable such as numbers and use numbers[0], numbers[1], and ... numbers[99] to represent individual variables.
+<br>
+<img style="float:right" src="images/java_array.jpg">
+<p> To use an array in a program, you must declare a variable to reference the array, and you must specify the type of array the variable <br> can reference. Here is the syntax for declaring an array variable:
+<br>
+<br>
+dataType[] arrayRefVar;   // preferred way.
+<br>
+<br>
+or
+<br>
+<br>
+dataType arrayRefVar[];  //  works but not preferred way.
+<br>
+<h2>Creating Array</h2>
+<p> You can create an array by using the new operator with the following syntax:
+<br>
+<br>
+arrayRefVar = new dataType[arraySize];
+<br>
+<br>
+The above statement does two things:
+<br>
+<ul><li>It creates an array using new dataType[arraySize];<br></li>
+<li>It assigns the reference of the newly created array to the variable arrayRefVar.<br></li>
+</ul>
+Declaring an array variable, creating an array, and assigning the reference of the array to the variable can be combined in one statement, as shown below:
+<br>
+<br>
+dataType[] arrayRefVar = new dataType[arraySize];
+<br>
+<br>
+Alternatively you can create arrays as follows:
+<br>
+<br>
+dataType[] arrayRefVar = {value0, value1, ..., valuek};
+<br>
+<br>
+The array elements are accessed through the index. Array indices are 0-based; that is, they start from 0 to arrayRefVar.length-1.
+
+<h2>Applications</h2>
+
+<ul><li>Arrays are used to implement mathematical vectors and matrices, as well as other kinds of rectangular tables. Many databases, small and large, consist of (or include) one-dimensional arrays whose elements are records.<br></li>
+<li>Arrays are used to implement other data structures, such as heaps, hash tables, deques, queues, stacks, strings, and VLists.<br></li>
+<li>One or more large arrays are sometimes used to emulate in-program dynamic memory allocation, particularly memory pool allocation. Historically, this has sometimes been the only way to allocate "dynamic memory" portably.<br></li>
+<li>Arrays can be used to determine partial or complete control flow in programs, as a compact alternative to (otherwise repetitive) multiple IF statements. They are known in this context as control tables and are used in conjunction with a purpose built interpreter whose control flow is altered according to values contained in the array. The array may contain subroutine pointers (or relative subroutine numbers that can be acted upon by SWITCH statements) that direct the path of the execution.<br></li>
+</li></ul>
+
+<br />
+<a href="java/ArrayList.html" class="info">Run Code</a>
+</div>
+</div>
+		<div id="quicklink" style="margin-top: 50px;">
+<table>
+
+<tr>
+<th>Data Structures(Basic)</th>
+<th>Data Structures(Tree)</th>
+<th>Algorithms</th>
+<th>Information</th>
+</tr>
+
+<tr>
+<td><li><a href="stack.html">Stack</a></li></td>
+<td><li><a href="heap.html">Heap</a></li></td>
+<td><li><a href="hanoi.html">Tower of Hanoi</a></li></td>
+<td><li><a href="index.html">Home</a></li></td>
+</tr>
+
+<tr>
+<td><li><a href="queue.html">Queue</a></li></td>
+<td><li><a href="bst.html">Binary Search Tree</a></li></td>
+<td><li><a href="radix.html">Radix Sort</a></li></td>
+<td><li><a href="about.html">About Project</a></li></td>
+</tr>
+
+<tr>
+<td><li><a href="linkedlist.html">Linked List</a></li></td>
+<td><li><a href="rbt.html">Red Black Tree</li></td>
+<td></td>
+<td><li><a href="contact.html">Contact US</a></li></td>
+</tr>
+
+<tr>
+<td><li><a href="array.html">Array</a></li></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+
+
+</table>
+</div>
+</body>
+</html>

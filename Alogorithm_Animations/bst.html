@@ -1,0 +1,171 @@
+<html>
+<head><title>Digital Content Development For Teaching DSA - Binary Search Tree </title>
+<link rel="stylesheet" type="text/css" href="css/content.css" />
+</head>
+<body>
+<h3 style="text-align:center;padding: 10px;color:white;background:black;">
+	<br />
+	<span style="font-size:30px">Digital Content Development for Data Structure and Algorithm</span>
+<br />	
+      Guide : Dr. G. T. Thampi
+	  <br />
+	  </h3>
+	<div style="  width: 1024px;
+  margin: 0 auto;
+  background: rgba(0, 0, 0, 0.55);
+  padding: 1em;
+  margin-top: 11px;">
+	
+               
+            <div class="main">
+			<center><h1>Binary Search Tree</h1></center><br>
+<hr><br>
+<h2> Introduction</h2><br>
+<p>A binary tree is made of nodes, where each node contains a "left" pointer, a "right" pointer, and a data element. The "root" pointer points to the topmost node in the tree. The left and right pointers recursively point to smaller "subtrees" on either side. A null pointer represents a binary tree with no elements - the empty tree. The formal recursive definition is: a binary tree is either empty (represented by a null pointer), or is made of a single node, where the left and right pointers (recursive definition ahead) each point to a binary tree. 
+<br>
+<br>
+Binary search trees keep their keys in sorted order, so that lookup and other operations can use the principle of binary search: when looking for a key in a tree (or a place to insert a new key), they traverse the tree from root to leaf, making comparisons to keys stored in the nodes of the tree and deciding, based on the comparison, to continue searching in the left or right subtrees.
+<br>
+<img style="float:right;background:white;" src="images/BST.png">
+
+<h2>Functions</h2>
+<ul><li>Insert - Given a binary search tree and a number, insert a new node with the given number into the tree in the correct place.<br></li>
+<li>Delete - Delete a tree node with certain value. If the node has two children, replace the data of this node with the smallest data of the right subtree and recursively delete that node.<br></li>
+<li>Search - Retrieve the data of a tree node.<br></li>
+</ul>
+<h2>Algorithm for Function</h2>
+<h3>Inserting a node into binary search tree</h3>
+  public void insert(T data)<br>
+   {<br>
+      root = insert(root, data);<br>
+   }<br>
+   private Node<T> insert(Node<T> p, T toInsert)<br>
+   {<br>
+      if (p == null)<br>
+         return new Node<T>(toInsert);<br>
+
+      if (compare(toInsert, p.data) == 0)<br>
+      	return p;<br>
+
+      if (compare(toInsert, p.data) < 0)<br>
+         p.left = insert(p.left, toInsert);<br>
+      else<br>
+         p.right = insert(p.right, toInsert);<br>
+
+      return p;<br>
+   }<br>
+
+<h3>Deleting a node from binary search tree</h3>
+public void delete(T toDelete)<br>
+   {<br>
+      root = delete(root, toDelete);<br>
+   }<br>
+   private Node<T> delete(Node<T> p, T toDelete)<br>
+   {<br>
+      if (p == null)  throw new RuntimeException("cannot delete.");<br>
+      else<br>
+      if (compare(toDelete, p.data) < 0)<br>
+      p.left = delete (p.left, toDelete);<br>
+      else<br>
+      if (compare(toDelete, p.data)  > 0)<br>
+      p.right = delete (p.right, toDelete);<br>
+      else<br>
+      {<br>
+         if (p.left == null) return p.right;<br>
+         else<br>
+         if (p.right == null) return p.left;<br>
+         else<br>
+         {<br>
+         // get data from the rightmost node in the left subtree<br>
+            p.data = retrieveData(p.left);<br>
+         // delete the rightmost node in the left subtree<br>
+            p.left =  delete(p.left, p.data) ;<br>
+         }<br>
+      }<br>
+      return p;<br>
+   }<br>
+   private T retrieveData(Node<T> p)<br>
+   {<br>
+      while (p.right != null) p = p.right;<br>
+      return p.data;<br>
+   }<br>
+
+<h3>Searching a node from binary search tree</h3>
+public boolean search(T toSearch)<br>
+   {<br>
+      return search(root, toSearch);<br>
+   }<br>
+   private boolean search(Node<T> p, T toSearch)<br>
+   {<br>
+      if (p == null)<br>
+         return false;<br>
+      else<br>
+      if (compare(toSearch, p.data) == 0)<br>
+      	return true;<br>
+      else<br>
+      if (compare(toSearch, p.data) < 0)<br>
+         return search(p.left, toSearch);<br>
+      else<br>
+         return search(p.right, toSearch);<br>
+   }<br>
+
+<h2>Applications</h2>
+
+<ul><li>Binary Search Tree - Used in many search applications where data is constantly entering/leaving, such as the map and set objects in many languages' libraries.<br></li>
+<li>Binary Space Partition - Used in almost every 3D video game to determine what objects need to be rendered.<br></li>
+<li>Binary Trees - Used in almost every high-bandwidth router for storing router-tables.<br></li>
+<li>Hash Trees - Used in p2p programs and specialized image-signatures in which a hash needs to be verified, but the whole file is not available.<br></li>
+<li>Heaps - Used in implementing efficient priority-queues, which in turn are used for scheduling processes in many operating systems. Also used in heap-sort.<br></li>
+<li>Huffman Coding Tree (Chip Uni) - Used in compression algorithms, such as those used by the .jpeg and .mp3 file-formats.<br></li>
+<li>GGM Trees - Used in cryptographic applications to generate a tree of pseudo-random numbers.<br></li>
+<li>Syntax Tree - Constructed by compilers and (implicitly) calculators to parse expressions.<br></li>
+<li>Treap - Randomized data structure used in wireless networking and memory allocation.<br></li>
+<li>T-tree - Though most databases use some form of B-tree to store data on the drive, databases which keep all (most) their data in memory often use T-trees to do so.<br>
+</li></ul>
+ <br />
+<a href="java/BST.html" class="info">Run Code</a>
+</div>
+</div>
+		<div id="quicklink" style="margin-top: 50px;">
+<table>
+
+<tr>
+<th>Data Structures(Basic)</th>
+<th>Data Structures(Tree)</th>
+<th>Algorithms</th>
+<th>Information</th>
+</tr>
+
+<tr>
+<td><li><a href="stack.html">Stack</a></li></td>
+<td><li><a href="heap.html">Heap</a></li></td>
+<td><li><a href="hanoi.html">Tower of Hanoi</a></li></td>
+<td><li><a href="index.html">Home</a></li></td>
+</tr>
+
+<tr>
+<td><li><a href="queue.html">Queue</a></li></td>
+<td><li><a href="bst.html">Binary Search Tree</a></li></td>
+<td><li><a href="radix.html">Radix Sort</a></li></td>
+<td><li><a href="about.html">About Project</a></li></td>
+</tr>
+
+<tr>
+<td><li><a href="linkedlist.html">Linked List</a></li></td>
+<td><li><a href="rbt.html">Red Black Tree</li></td>
+<td></td>
+<td><li><a href="contact.html">Contact US</a></li></td>
+</tr>
+
+<tr>
+<td><li><a href="array.html">Array</a></li></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+
+
+</table>>
+</div>
+</body>
+</html>

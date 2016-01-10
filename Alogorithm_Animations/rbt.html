@@ -1,0 +1,108 @@
+<html>
+<head><title>Digital Content Development For Teaching DSA - Red Black Tree</title>
+ <link rel="stylesheet" type="text/css" href="css/content.css" />
+</head>
+<body>
+<h3 style="text-align:center;padding: 10px;color:white;background:black;">
+	<br />
+	<span style="font-size:30px">Digital Content Development for Data Structure and Algorithm</span>
+<br />	
+      Guide : Dr. G. T. Thampi
+	  <br />
+	  </h3>
+	<div style="  width: 1024px;
+  margin: 0 auto;
+  background: rgba(0, 0, 0, 0.55);
+  padding: 1em;
+  margin-top: 11px;">
+	
+               
+            <div class="main"><center><h1>Red Black Tree</h1></center><br>
+<hr><br>
+<h2> Introduction</h2><br>
+<p>The important idea behind all of this trees is that the insert and delete operations may restructure the tree to keep it balanced. So lookup, insert, and delete will always be logarithmic in the number of nodes but insert and delete may be more complicated than for binary search trees.
+
+A red-black tree is a binary search tree in which<br>
+<br>
+<ul><li>each node has a color (red or black) associated with it (in addition to its key and left and right children)</li>
+<li>the following 3 properties hold:<br>
+1.(root property) The root of the red-black tree is black<br>
+2.(red property) The children of a red node are black.<br>
+3.(black property) For each node with at least one null child, the number of black nodes on the path from the root to the null child is the same.<br>
+</li></ul>
+<br>
+An example of a red-black tree is shown:
+<img style="background:white;" src="images/rbt.gif">
+<br><br>
+A binary search tree is a red-black tree if it satisfies the following red-black properties:
+<br>
+1. Every node is either red or black.
+<br>
+2. Every leaf (NIL) is black.
+<br>
+3. If a node is red, then both its children are black.
+<br>
+4. Every simple path from a node to a descendant leaf contains the same number of black nodes.
+<br>
+<h2>Function</h2><br>
+1.Insert-Insert a key value<br>
+2.Lookup-Determine whether a key value is in the tree<br>
+3.Delete-Remove key value from the tree<br>
+4.print all of the key values in sorted order<br>
+Because a red-black tree is a binary search tree and operations that don't change the structure of a tree won't affect whether the tree satisfies the red-black tree properties, the lookup and print operations are identical to lookup and print for binary search trees.
+<br>
+<h2>Applications</h2>
+
+<ul>
+<li>Insertion-deletion takes less time in Red-Black Tree than AVL Tree. </li>
+<li>Red-Black Tree for insertion-deletion.</li>
+<li>The Complete fair process scheduler in Linux uses Red Black Trees. </li>
+<li>Computational Geometry Data structures</li></ul>
+
+<br />
+<a href="java/RBTree.html" class="info">Run Code</a>
+</div>
+</div>
+		<div id="quicklink" style="margin-top: 50px;">
+<table>
+
+<tr>
+<th>Data Structures(Basic)</th>
+<th>Data Structures(Tree)</th>
+<th>Algorithms</th>
+<th>Information</th>
+</tr>
+
+<tr>
+<td><li><a href="stack.html">Stack</a></li></td>
+<td><li><a href="heap.html">Heap</a></li></td>
+<td><li><a href="hanoi.html">Tower of Hanoi</a></li></td>
+<td><li><a href="index.html">Home</a></li></td>
+</tr>
+
+<tr>
+<td><li><a href="queue.html">Queue</a></li></td>
+<td><li><a href="bst.html">Binary Search Tree</a></li></td>
+<td><li><a href="radix.html">Radix Sort</a></li></td>
+<td><li><a href="about.html">About Project</a></li></td>
+</tr>
+
+<tr>
+<td><li><a href="linkedlist.html">Linked List</a></li></td>
+<td><li><a href="rbt.html">Red Black Tree</li></td>
+<td></td>
+<td><li><a href="contact.html">Contact US</a></li></td>
+</tr>
+
+<tr>
+<td><li><a href="array.html">Array</a></li></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+
+
+</table>
+</div>
+</body>
+</html>

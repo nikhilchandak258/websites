@@ -1,0 +1,108 @@
+<html>
+<head><title>Digital Content Development For Teaching DSA - Tower Of Hanoi </title>
+<link rel="stylesheet" type="text/css" href="css/content.css" />
+</head>
+<body>
+<h3 style="text-align:center;padding: 10px;color:white;background:black;">
+	<br />
+	<span style="font-size:30px">Digital Content Development for Data Structure and Algorithm</span>
+<br />	
+      Guide : Dr. G. T. Thampi
+	  <br />
+	  </h3>
+	<div style="  width: 1024px;
+  margin: 0 auto;
+  background: rgba(0, 0, 0, 0.55);
+  padding: 1em;
+  margin-top: 11px;">
+	
+               
+            <div class="main">
+<center><h1>Tower Of Hanoi</h1></center><br>
+<hr><br>
+<h2> Introduction</h2><br>
+<p>The Tower of Hanoi puzzle was invented by the French mathematician Edouard Lucas in 1883. 
+He was inspired by a legend that tells of a Hindu temple where the puzzle was presented to young priests. 
+At the beginning of time, the priests were given three poles and a stack of 64 gold disks, each disk a little smaller than the one beneath it. 
+Their assignment was to transfer all 64 disks from one of the three poles to another, with two important constraints. 
+They could only move one disk at a time, and they could never place a larger disk on top of a smaller one. 
+The priests worked very efficiently, day and night, moving one disk every second. 
+When they finished their work, the legend said, the temple would crumble into dust and the world would vanish.
+<br><br>
+<p>Figure shows an example of a configuration of disks in the middle of a move from the first peg to the third. 
+Notice that, as the rules specify, the disks on each peg are stacked so that smaller disks are always on top of the larger disks. 
+If you have not tried to solve this puzzle before, you should try it now. 
+You do not need fancy disks and poles–a pile of books or pieces of paper will work.
+<br>
+<center><img src="images/hanoi.png"></center>
+<br><br>
+
+As long as we always obey the rule that the larger disks remain on the bottom of the stack, we can use the three steps above recursively, treating any larger disks as though they were not even there. 
+The only thing missing from the outline above is the identification of a base case. The simplest Tower of Hanoi problem is a tower of one disk. In this case, we need move only a single disk to its final destination. 
+A tower of one disk will be our base case. In addition, the steps outlined above move us toward the base case by reducing the height of the tower in steps 1 and 3.
+
+<h2>Algorithm</h2>
+<img src="images/toh.gif" style="float:right;">
+<p>Here is a high-level outline of how to move a tower from the starting pole, to the goal pole, using an intermediate pole:
+
+<br>1.Move a tower of height-1 to an intermediate pole, using the final pole.<br>
+2.Move the remaining disk to the final pole.<br>
+3.Move the tower of height-1 from the intermediate pole to the final pole using the original pole.<br>
+<br>
+<br><br>
+<br>
+<br>
+<br>
+<h2>Applications</h2>
+
+<ul>
+<li>The Tower of Hanoi is frequently used in psychological research on problem solving. </li>
+<li>The Tower of Hanoi is also used as a Backup rotation scheme when performing computer data Backups where multiple tapes/media are involved.</li>
+<li>Tower of Hanoi is popular for teaching recursive algorithms to beginning programming students.</li></ul>
+ <br />
+<a href="java/TowerOfHanoi.html" class="info">Run Code</a>
+</div>
+</div>
+		<div id="quicklink" style="margin-top: 50px;">
+<table>
+
+<tr>
+<th>Data Structures(Basic)</th>
+<th>Data Structures(Tree)</th>
+<th>Algorithms</th>
+<th>Information</th>
+</tr>
+
+<tr>
+<td><li><a href="stack.html">Stack</a></li></td>
+<td><li><a href="heap.html">Heap</a></li></td>
+<td><li><a href="hanoi.html">Tower of Hanoi</a></li></td>
+<td><li><a href="index.html">Home</a></li></td>
+</tr>
+
+<tr>
+<td><li><a href="queue.html">Queue</a></li></td>
+<td><li><a href="bst.html">Binary Search Tree</a></li></td>
+<td><li><a href="radix.html">Radix Sort</a></li></td>
+<td><li><a href="about.html">About Project</a></li></td>
+</tr>
+
+<tr>
+<td><li><a href="linkedlist.html">Linked List</a></li></td>
+<td><li><a href="rbt.html">Red Black Tree</li></td>
+<td></td>
+<td><li><a href="contact.html">Contact US</a></li></td>
+</tr>
+
+<tr>
+<td><li><a href="array.html">Array</a></li></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+
+
+</table>
+</div>
+</body>
+</html>

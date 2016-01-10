@@ -1,0 +1,153 @@
+<html>
+<head><title>Digital Content Development For Teaching DSA - Stack </title>
+  <link rel="stylesheet" type="text/css" href="css/content.css" />
+ 
+		</head>
+<body>
+<h3 style="text-align:center;padding: 10px;color:white;background:black;">
+	<br />
+	<span style="font-size:30px">Digital Content Development for Data Structure and Algorithm</span>
+<br />	
+      Guide : Dr. G. T. Thampi
+	  <br />
+	  </h3>
+	<div style="  width: 1024px;
+  margin: 0 auto;
+  background: rgba(0, 0, 0, 0.55);
+  padding: 1em;
+  margin-top: 11px;">
+	
+               
+            <div class="main">
+
+<center><h1>Stack</h1></center><br>
+<hr><br>
+<h2> Introduction</h2><br>
+<p>A stack is a container of objects that are inserted and removed according to the last-in first-out (LIFO) principle. 
+In the pushdown stacks only two operations are allowed: push the item into the stack, and pop the item out of the stack. 
+A stack is a limited access data structure - elements can be added and removed from the stack only at the top. 
+push adds an item to the top of the stack, pop removes the item from the top. 
+A helpful analogy is to think of a stack of books; you can remove only the top book, also you can add a new book on the top.
+<img style="float:right" src="images/stack.bmp">
+<p> A stack is a recursive data structure. Here is a structural definition of a Stack:
+<br>
+<br>
+a stack is either empty or<br>
+it consistes of a top and the rest which is a stack;
+<br>
+We only use only one pointer called top.
+
+<h2>Functions</h2>
+<ul><li>Push - It pushes element On top of Stack <br></li>
+<li>Pop - It removes the top most element of stack<br></li>
+<li>Peek - It shows top most element of stack<br></li>
+</ul>
+<br>
+<h2>Algorithm For Function</h2><br>
+<h4>Adding into stack</h4><br>
+<br>
+procedure add(item : items); <br>
+{add item to the global stack stack; <br>
+top is the current top of stack <br>
+and n is its maximum size} <br>
+begin <br>
+    if top = n then stackfull; <br>
+    top := top+1; <br>
+    stack(top) := item; <br>
+end: {of add}<br>
+
+<h4>Deletion in stack</h4><br>
+<br>
+procedure delete(var item : items); <br>
+{remove top element from the stack stack and put it in the item} <br>
+begin <br>
+    if top = 0 then stackempty; <br>
+    item := stack(top); <br>
+    top := top-1; <br>
+end; {of delete}<br>
+
+<h4>Peeking into stack</h4><br>
+<br>
+procedure peek(); <br>
+{add item to the global stack stack; <br>
+top is the current top of stack <br>
+and n is its maximum size} <br>
+begin <br>
+    temp=stack(top);
+end: {of peek}<br>
+
+These two procedures are so simple that they perhaps need no more explanation. 
+Procedure delete actually combines the functions TOP and DELETE, stackfull and stackempty are procedures which are left unspecified since they will depend upon the particular application. 
+Often a stackfull condition will signal that more storage needs to be allocated and the program re-run. 
+Stackempty is often a meaningful condition.<br>
+<br>
+<h2>Applications</h2>
+
+<ul><li>The simplest application of a stack is to reverse a word. You push a given word to stack - letter by letter - and then pop letters from the stack.<br></li>
+<li>Another application is an "undo" mechanism in text editors; this operation is accomplished by keeping all text changes in a stack.<br></li>
+<li>Backtracking. <br>This is a process when you need to access the most recent data element in a series of elements. Think of a labyrinth or maze - how do you find a way from an entrance to an exit?
+Once you reach a dead end, you must backtrack. But backtrack to where? to the previous choice point. Therefore, at each choice point you store on a stack all possible choices. Then backtracking simply means popping a next choice from the stack.<br></li>
+<li>Language processing:<br>
+space for parameters and local variables is created internally using a stack.<br>
+compiler's syntax check for matching braces is implemented by using stack.<br>
+support for recursion<br></li>
+<li>Depth-First Search with a Stack<br>
+
+In depth-first search we go down a path until we get to a dead end; then we backtrack or back up (by popping a stack) to get an alternative path.<br>
+<br>
+<h3>Algorithm:</h3>
+Create a stack<br>
+Create a new choice point<br>
+Push the choice point onto the stack<br>
+while (not found and stack is not empty)<br>
+Pop the stack<br>
+Find all possible choices after the last one tried<br>
+Push these choices onto the stack<br>
+Return<br></li></ul>
+ <a href="java/Stack.html" class="info">Run Code</a>
+</div>
+</div>
+		<div id="quicklink" style="margin-top: 50px;">
+<table>
+
+<tr>
+<th>Data Structures(Basic)</th>
+<th>Data Structures(Tree)</th>
+<th>Algorithms</th>
+<th>Information</th>
+</tr>
+
+<tr>
+<td><li><a href="stack.html">Stack</a></li></td>
+<td><li><a href="heap.html">Heap</a></li></td>
+<td><li><a href="hanoi.html">Tower of Hanoi</a></li></td>
+<td><li><a href="index.html">Home</a></li></td>
+</tr>
+
+<tr>
+<td><li><a href="queue.html">Queue</a></li></td>
+<td><li><a href="bst.html">Binary Search Tree</a></li></td>
+<td><li><a href="radix.html">Radix Sort</a></li></td>
+<td><li><a href="about.html">About Project</a></li></td>
+</tr>
+
+<tr>
+<td><li><a href="linkedlist.html">Linked List</a></li></td>
+<td><li><a href="rbt.html">Red Black Tree</li></td>
+<td></td>
+<td><li><a href="contact.html">Contact US</a></li></td>
+</tr>
+
+<tr>
+<td><li><a href="array.html">Array</a></li></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+
+
+</table>
+</div>
+
+</body>
+</html>
