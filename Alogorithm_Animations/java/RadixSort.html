@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html>
+<meta http-equiv="content-type" content="text/html;charset=iso-8859-1" />
+<head>
+    <title>BE Project</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <link rel="stylesheet" type="text/css" href="boxes.css" />
+
+    <script>
+      var ARRAY_SIZE = 15;
+      var position = 0;
+      var i = 0;
+      var key;
+      var sorted = false;
+      var list = new Array();
+      var bucket = new Array();
+
+      initializeList();
+      initializeBuckets();
+
+      function reset() {
+        sorted = false;
+        initializeList();
+        clearBuckets();
+        i = 0;
+        position = 0;
+        initializeList();
+        draw();
+      }
+
+      function initializeList() {
+        for (var i = 0; i < ARRAY_SIZE; i++) {
+          list[i] = Math.floor(Math.random() * 1000);
+        }
+      }
+
+      /** Create array list for each bucket */
+      function initializeBuckets() {
+        for (var i = 0; i < 10; i++) {
+          bucket[i] = new Array();
+        }
+      }
+
+      /** Clear the buckets */
+      function clearBuckets() {
+        for (var i = 0; i < 10; i++) {
+          bucket[i].splice(0, bucket[i].length);
+        }
+      }
+
+      function draw() {
+        var canvas = document.getElementById('canvas');
+        var context = canvas.getContext("2d");
+        // Reset size will clear the canvas, but not for IE9
+        canvas.width = window.innerWidth - 20;
+        canvas.height = window.innerHeight - 180;        
+        context.clearRect(0, 0, canvas.width, canvas.height); // For IE 9
+
+        context.font = "14px sans-serif";
+        context.strokeStyle = "#100"; // Set a pen color
+
+        drawList(context, list, -70, 0, "");
+        drawBuckets(context, -119, 50, bucket);
+
+        if (sorted) {
+          context.fillText("The list is sorted. Click Reset to restart", 250, 20);
+        }
+        context.stroke();
+      }
+
+      function drawList(context, list, startX, startY, title) {
+        context.fillText(title, 40 * (0 + 1) + startX - 5, 60 + startY);
+        for (var k = 0; k < list.length; k++) {
+          if (i - 1 == k) {
+            context.fillStyle = 'red';
+            context.fillText(list[k] + "", 40 * (k + 2) + 5 + startX, 60 + startY);
+            context.fillStyle = 'black';
+          }
+          context.fillText(list[k] + "", 40 * (k + 2) + 5 + startX, 60 + startY);
+          context.rect(40 * (k + 2) + startX, 40 + startY, 40, 30);
+        }
+      }
+
+      function drawBuckets(context, startX, startY, bucket) {
+        for (var i = 0; i < 10; i++) {
+          context.rect(65 * (i + 2) + startX, 40 + startY, 50, 150);
+          context.fillText("bucket[" + i + "]", 65 * (i + 2) + startX - 5, 210 + startY);
+
+          for (var j = 0; j < bucket[i].length; j++) {
+            context.fillText(bucket[i][j], 65 * (i + 2) + startX + 15, j * 20 + 60 + startY);
+          }
+
+          if (i == key && bucket[i].length > 0) {
+            context.fillStyle = 'red';
+            context.fillText(bucket[i][bucket[i].length - 1],
+                    65 * (i + 2) + startX + 15, (bucket[i].length - 1) * 20 + 60 + startY);
+            context.fillStyle = 'black';
+          }
+        }
+      }
+
+      function step() {
+        if (takeAStep()) {
+          sorted = true;
+        }
+        draw();
+      }
+
+      function takeAStep() {
+        // Distribute the elements from list to buckets
+        if (i < list.length) {
+          key = getKey(list[i], position);
+          bucket[key][bucket[key].length] = list[i];
+          i++;
+          return false;
+        }
+        else if (position < 2) {
+          bucketsToList();
+          clearBuckets();
+          i = 0;
+          position++;
+          return false;
+        }
+        else {
+          bucketsToList();
+          clearBuckets();
+          return true;
+        }
+      }
+
+      /** move the elements from the buckets back to list */
+      function bucketsToList() {
+        var k = 0; // k is an index for list
+        for (var i = 0; i < bucket.length; i++) {
+          for (var j = 0; j < bucket[i].length; j++)
+            list[k++] = bucket[i][j];
+        }
+      }
+
+      /** Return the digit at the specified position. 
+       * The last digit's position is 0. */
+      function getKey(number, position) {
+        var result = 1;
+        for (var i = 0; i < position; i++)
+          result *= 10;
+
+        return Math.floor(number / result) % 10;
+      }
+
+    </script>
+  </head>
+
+  <body onload="reset()" onresize="draw()">   
+<h3 style="text-align:center; font: bold"> <!--a href="../index.html" >Home</a--> 
+	<br />
+	<span style="font-size:30px">Digital Content Development for Data Structure and Algorithm</span>
+<br />	
+      Guide : Dr. G. T. Thampi
+	  <br /><b>Radix Sort Implementation</b>
+	  </h3> 
+  <p> 
+  Usage: Perform radix sort for a list of 15 random integers from 0 to 999. Click the Step button to move a number to a bucket. Click the Reset button to start over with a new random list.  
+    </p>
+
+    <div style="margin: 0px auto; border: 1px solid red; text-align: right">
+      <canvas id="canvas" width="400" height="280"></canvas>
+    </div>
+    <div style="text-align: center; margin-top: 1em">
+      <button type="button" class = "button" onclick="step()">Step</button>
+      <button type="button" class = "button" onclick="reset()">Reset</button>
+    </div>
+			<div id="quicklink" style="margin-top: 50px;">
+<table>
+
+<tr>
+<th>Data Structures(Basic)</th>
+<th>Data Structures(Tree)</th>
+<th>Algorithms</th>
+<th>Information</th>
+</tr>
+
+<tr>
+<td><li><a href="../stack.html">Stack</a></li></td>
+<td><li><a href="../heap.html">Heap</a></li></td>
+<td><li><a href="../hanoi.html">Tower of Hanoi</a></li></td>
+<td><li><a href="../index.html">Home</a></li></td>
+</tr>
+
+<tr>
+<td><li><a href="../queue.html">Queue</a></li></td>
+<td><li><a href="../bst.html">Binary Search Tree</a></li></td>
+<td><li><a href="../radix.html">Radix Sort</a></li></td>
+<td><li><a href="../about.html">About Project</a></li></td>
+</tr>
+
+<tr>
+<td><li><a href="../linkedlist.html">Linked List</a></li></td>
+<td><li><a href="../rbt.html">Red Black Tree</li></td>
+<td></td>
+<td><li><a href="../contact.html">Contact US</a></li></td>
+</tr>
+
+<tr>
+<td><li><a href="../array.html">Array</a></li></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+
+
+</table>
+</div>
+  </body>
+
+</html>
